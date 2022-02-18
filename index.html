@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch!</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+<body>
+    <header>
+      <h1>Etch-A-Sketch</h1>
+    </header>
+    <span>Hold left-click to draw, hold right-click to erase</span>
+    <div class="main">
+      
+       <div id="canvas" oncontextmenu="return false"></div>
+       <div id="ui">
+         
+          <label for="sze">Choose size</label>
+          <input type="range" id="size" name="sze" value="16" min='1' max="100" step="1">
+          <p id="showsize"></p>
+          <button id="setsize">Set Size</button>
+          <button id="clear">Clear</button>
+          <button id="rainbow">Rainbow</button>
+          <button id="default">Default Pen</button>
+          <button id="custom">Custom</button>
+          <input type="color" id="color" name="color" value="#ff69b4">
+       </div>
+    </div>
+    <footer>
+        <h3>Created by Keshav, TheOdinProject <a href="https://github.com/keshav278/theodinproject-etchasketch"><i class="fab fa-github"></i></a></h3>
+        
+    </footer>
+</body>
+</html>
