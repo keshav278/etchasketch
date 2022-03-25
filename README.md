@@ -1,2 +1,2 @@
-# theodinproject-etchasketch
+# etchasketch
 Etch-a-Sketch using Javascript
